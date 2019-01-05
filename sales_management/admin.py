@@ -12,6 +12,12 @@ admin.site.register(Area)
 admin.site.register(District)
 admin.site.register(Territory)
 admin.site.register(Outlet)
+admin.site.register(Visit)
+admin.site.register(Attendance)
+admin.site.register(Leave)
+admin.site.register(Sales)
+admin.site.register(Stock)
+admin.site.register(Target)
 
 
 class CustomUserAdmin(UserAdmin):
